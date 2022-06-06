@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Orbitron&family=Varela+Round&display=swap');
+
+*{
+  background-color: rgb(248, 211, 242);
+}
+.game {
+    text-align: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color:  rgb(0, 0, 0);
+    font-size: 75px;
+    display: flex;
+    justify-content: space-evenly;
+}
+h2{
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    color: rgb(226, 23, 158);
+    font-size: 50px;
+}
+h4{
+    text-align: center;
+    font-size: 30px;
+    border: 5px, solid, pink;
+    font-family: 'Orbitron', sans-serif;
+}
+nav{
+   
+    position: relative;
+    display: block;
+    align-items: center;
+    margin-right: 8%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button{
+    
+    margin-left: 48%;
+    font-size: 40px;
+}
+div {
+    align-items: center;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 675px;
+    width: 675px;
+    left: 20%;
+    
+      
+}
+
+.grid{
+    
+    background-color: rgb(255, 94, 148);
+    height: 150px;
+    width: 150px;
+    margin: 0;
+    margin-right: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 12%;
+
+}
+
+
